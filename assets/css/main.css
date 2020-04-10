@@ -105,13 +105,17 @@ input, select, textarea {
 		line-height: 2em;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		color: #6b7770;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
+	}
+
+	h4 {
+		line-height: 1.2;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -140,8 +144,43 @@ input, select, textarea {
 				padding: 0 1.25em 0 1.25em;
 			}
 
-	h3, h4 {
+	h3 {
 		font-size: 2.00em;
+	}
+
+	.pricing { 
+		font-size: 1.25em;
+		text-align: center;
+		color: black;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: lowercase;
+		margin: 0 0 0.5em 0;
+		line-height: 1.3;
+	}
+
+	.strike-through {
+		text-decoration: line-through;
+		text-decoration-thickness: 3px;
+	}
+
+	.sale {
+		color: red;
+		text-transform: uppercase;
+	}
+
+	.details {
+		font-size: 1.0em;
+		line-height: 1.2;
+		text-transform: none;
+		text-align: left;
+		font-weight: normal;
+		padding-left: 40px;
+	}
+
+	.label {
+		color: #515854;
+		font-weight: bold;
 	}
 
 	a {
