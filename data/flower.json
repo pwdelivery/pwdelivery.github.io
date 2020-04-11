@@ -13,6 +13,9 @@
             "quarter": "45",
             "half": "80",
             "full": "140"
+        },
+        "images": {
+            "feature": "images/duke-nukem-sale.png" 
         }
     },
     {
@@ -29,6 +32,9 @@
             "quarter": "45",
             "half": "80",
             "full": "140"
+        },
+        "images": {
+            "feature": "images/diesel-sale.png" 
         }
     },
     {
@@ -45,6 +51,9 @@
             "quarter": "60",
             "half": "14",
             "full": "180"
+        },
+        "images": {
+            "feature": "images/bubba-tuna-so.png" 
         }
     },
     {
@@ -61,6 +70,9 @@
             "quarter": "40",
             "half": "60",
             "full": "100"
+        },
+        "images": {
+            "feature": "images/lemon-kush-so.png" 
         }
     }
 ]
