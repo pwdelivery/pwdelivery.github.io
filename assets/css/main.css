@@ -149,7 +149,7 @@ input, select, textarea {
 	}
 
 	.pricing { 
-		font-size: 2.0em;
+		font-size: 1.75em;
 		text-align: center;
 		color: black;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -3159,6 +3159,7 @@ input, select, textarea {
 	padding-left: 40px;
 	padding-bottom: 10px;
 	font-weight: 700;
+	font-size: 1.25em;
   }
   
   .custom-select select {
