@@ -16,7 +16,8 @@
         },
         "images": {
             "feature": "images/duke-nukem-sale.png" 
-        }
+        },
+        "sale": true
     },
     {
         "strain": "Diesel AAA",
