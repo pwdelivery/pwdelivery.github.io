@@ -1,0 +1,66 @@
+[
+    {
+        "strain": "Duke Nukem AAA",
+        "variety": "Hybrid",
+        "budsize": "Small - Medium",
+        "texture": "Semi-Fluffy & Normal",
+        "flavour": "Citrus, Orange, Sweet, Tropical",
+        "medical": "Pain, Anxiety, Appetite, Depression, Nausea",
+        "thc": "15-21%",
+        "cbd": "<1%",
+        "prices": {
+            "eigth": "30",
+            "quarter": "45",
+            "half": "80",
+            "full": "140"
+        }
+    },
+    {
+        "strain": "Diesel AAA",
+        "variety": "Sativa",
+        "budsize": "Small",
+        "texture": "Dense & Normal",
+        "flavour": "Pungent, Diesel, Skunky, Sour",
+        "medical": "ADD/ADHD, Anxiety, Headaches, Fatigue, Stress",
+        "thc": "15-22%",
+        "cbd": "<1%",
+        "prices": {
+            "eigth": "30",
+            "quarter": "45",
+            "half": "80",
+            "full": "140"
+        }
+    },
+    {
+        "strain": "Bubba Tuna AAAA",
+        "variety": "Indica",
+        "budsize": "Small - Large",
+        "texture": "Dense & Sticky",
+        "flavour": "Pungent, Sweet, Kushy, Skunky, Gas",
+        "medical": "Insomnia, Pain, Stress, Lack of Appetite",
+        "thc": "23-28%",
+        "cbd": "<1%",
+        "prices": {
+            "eigth": "40",
+            "quarter": "60",
+            "half": "14",
+            "full": "180"
+        }
+    },
+    {
+        "strain": "Lemon Kush AA",
+        "variety": "Hybrid",
+        "budsize": "Small - Medium",
+        "texture": "Semi Fluffy - Normal",
+        "flavour": "Earthy, Herbal, Kush, Lemon, Sweet",
+        "medical": "Pain, Depression, Headaches, Insomnia, Migraines, PTSD, Stress",
+        "thc": "17-26%",
+        "cbd": "<1%",
+        "prices": {
+            "eigth": "25",
+            "quarter": "40",
+            "half": "60",
+            "full": "100"
+        }
+    }
+]
