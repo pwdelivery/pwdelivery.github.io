@@ -183,6 +183,10 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
+	.centered {
+		text-align: center;
+	}
+
 	a {
 		color: #006376;
 		text-decoration: underline;
@@ -434,6 +438,7 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+			padding-bottom: 100px;
 		}
 
 		.row > .off-12 {
