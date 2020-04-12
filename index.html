@@ -10,7 +10,16 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 		<script src="assets/js/mycode.js"></script>
+		<script src="assets/js/custom-select.js"></script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -51,92 +60,8 @@
 									<section class="box features">
 										<h2 class="major"><span>Flower</span></h2>
 										<div>
-											<div class="row" id="flower-menu">
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a class="image featured"><img src="images/duke-nukem-sale.png" alt="" /></a>
-															<h3>Duke Nukem AAA</h3>
-															<div style="display:flex; align-items: center;">
-																<div class="custom-select" style="width:200px;flex:1;">
-																	<select>
-																	<option value="0">See Prices:</option>
-																	<option value="1">3.5g / $30</option>
-																	<option value="2">7g / $45</option>
-																	<option value="3">14g / $80</option>
-																	<option value="4">28g / $140</option>
-																	</select>
-																</div>
-																<h4 class="pricing" style="flex:1;"></a>28g/<a class="strike-through">$140<a class="sale"> $120</a></h4>
-															</div>
-															<h4 class="details"><b class="label">Variety: </b>Sativa</h4>
-															<h4 class="details"><b class="label">Bud Size: </b>Small - Medium</h4>
-															<h4 class="details"><b class="label">Texture: </b>Semi-Fluffy & Normal</h4>
-															<h4 class="details"><b class="label">Flavour: </b>Citrus, Orange, Sweet, Tropical</h4>
-															<h4 class="details"><b class="label">Medical: </b>Pain, Anxiety, Appetite, Depression, Nausea</h4>
-															<h4 class="details"><b class="label">THC: </b>15-21% <b class="label">CBD: </b>>1%</h4>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a class="image featured"><img src="images/diesel-sale.png" alt="" /></a>
-															<h3>Diesel AAA</h3>
-															<div style="display:flex; align-items: center;">
-																<div class="custom-select" style="width:200px;flex:1;">
-																	<select>
-																	<option value="0">See Prices:</option>
-																	<option value="1">3.5g / $30</option>
-																	<option value="2">7g / $45</option>
-																	<option value="3">14g / $80</option>
-																	<option value="4">28g / $140</option>
-																	</select>
-																</div>
-																<h4 class="pricing" style="flex:1;"></a>28g/<a class="strike-through">$140<a class="sale"> $120</a></h4>
-															</div>
-															<h4 class="details"><b class="label">Variety: </b>Hybrid</h4>
-															<h4 class="details"><b class="label">Bud Size: </b>Small</h4>
-															<h4 class="details"><b class="label">Texture: </b>Dense & Normal</h4>
-															<h4 class="details"><b class="label">Flavour: </b>Pungent, Diesel, Skunky, Sour</h4>
-															<h4 class="details"><b class="label">Medical: </b>ADD/ADHD, Anxiety, Headaches, Fatigue, Stress</h4>
-															<h4 class="details"><b class="label">THC: </b>15-22% <b class="label">CBD: </b>>1%</h4>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a class="image featured"><img src="images/bubba-tuna-so.png" alt="" /></a>
-															<h3>Bubba Tuna AAAA</h3>
-															<h4 class="pricing">3.5g/$40 7g/$60 14g/$100 28g/$180</h4>
-															<h4 class="details"><b class="label">Variety: </b>Indica</h4>
-															<h4 class="details"><b class="label">Bud Size: </b>Small - Large</h4>
-															<h4 class="details"><b class="label">Texture: </b>Dense & Sticky</h4>
-															<h4 class="details"><b class="label">Flavour: </b>Pungent, Sweet, Kushy, Skunky, Gas</h4>
-															<h4 class="details"><b class="label">Medical: </b>Insomnia, Pain, Stress, Lack of Appetite</h4>
-															<h4 class="details"><b class="label">THC: </b>23-28% <b class="label">CBD: </b>>1%</h4>
-														</section>
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a class="image featured"><img src="images/lemon-kush-so.png" alt="" /></a>
-															<h3>Lemon Kush AA</h3>
-															<h4 class="pricing">3.5g/$25 7g/$40 14g/$60 28g/$100</h4>
-															<h4 class="details"><b class="label">Variety: </b>Hybrid</h4>
-															<h4 class="details"><b class="label">Bud Size: </b>Small - Medium</h4>
-															<h4 class="details"><b class="label">Texture: </b>Semi Fluffy - Normal</h4>
-															<h4 class="details"><b class="label">Flavour: </b>Earthy, Herbal, Kush, Lemon, Sweet</h4>
-															<h4 class="details"><b class="label">Medical: </b>Pain, Depression, Headaches, Insomnia, Migraines, PTSD, Stress</h4>
-															<h4 class="details"><b class="label">THC: </b>17-26% <b class="label">CBD: </b>>1%</h4>
-														</section>
-												</div>
-												<div class="col-12">
+											<div class="row" id="flower-menu"> 
+												<div class="col-12" id="action-buttons">
 													<ul class="actions">
 														<li><a href="#" class="button large">Order Now</a></li>
 														<li><a href="#concentrates" class="button large scrolly">Continue to Concentrates</a></li>
@@ -186,20 +111,9 @@
 									<li>&copy; Pacific West Delivery. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 								</ul>
 							</div>
-
 					</div>
 				</footer>	
 		</div>
-
-		<!-- Scripts -->
-			<!--<script>printProduct("flower")</script>-->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/custom-select.js"></script>
 	</body>
+	<script>printProduct("flower")</script>
 </html>

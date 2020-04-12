@@ -17,7 +17,7 @@
         "images": {
             "feature": "images/duke-nukem-sale.png" 
         },
-        "sale": true
+        "sale?": true
     },
     {
         "strain": "Diesel AAA",
@@ -36,7 +36,8 @@
         },
         "images": {
             "feature": "images/diesel-sale.png" 
-        }
+        },
+        "sale?": true
     },
     {
         "strain": "Bubba Tuna AAAA",
