@@ -3157,7 +3157,7 @@ input, select, textarea {
  .custom-select {
 	position: relative;
 	padding-left: 40px;
-	max-width: 22.5em;
+	padding-right: 40px;
 	padding-bottom: 10px;
 	font-weight: 700;
 	font-size: 1.25em;
