@@ -120,7 +120,7 @@ function printFlower(data) {
     customSelectMain();
 }
 
-function printProduct(name, callback) {
+function printProduct(name) {
     if (name === "flower") {
         fetch("./data/flower.json")
             .then((response) => {
@@ -133,5 +133,4 @@ function printProduct(name, callback) {
                 console.error(error);
             });
     }
-    callback();
 }
