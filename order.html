@@ -34,57 +34,51 @@
 					</ul>
 				</nav>
 
-			<!-- Banner -->
-				<section id="banner">
+				<section id="banner" style="padding: 3em 0">
 					<div class="content">
-						<h2>Welcome to Pacific West Delivery!</h2>
-						<p>An independent delivery service in Delta & Richmond B.C. dedicated to providing high quality marijuana at great prices</p>
-						<a href="#flower" class="button scrolly">Flower</a>
-						<a href="#concentrates" class="button scrolly">Concentrates</a>
+						<h2>Place Your Local Delivery Order Here!</h2>
+						<p>If you have questions before you order, please check out the FAQ or contact us directly.</p>
 					</div>
 				</section>
 
 			<!-- Main -->
 				<section id="main">
 					<div class="container">
-							<div class="col-12" id="flower">
+							<div class="col-12">
 
 								<!-- Features -->
 									<section class="box features">
-										<h2 class="major"><span>Flower</span></h2>
+										<h2 class="major"><span>Inventory</span></h2>
 										<div>
-											<div class="row" id="flower-menu"> 
-												<div class="col-12" id="action-buttons">
-													<ul class="actions">
-														<li><a href="order.html" class="button large">Order Now</a></li>
-													</ul>
-												</div>
+											<div class="row" id="flower-order">
+								
+												<form>
+													<div class="inventory-select">
+														<div class="options-select">
+															<select id="flower-weight-list">
+																<option value="0">Weight</option>
+																<option value="1">3.5g</option>
+																<option value="2">7g</option>
+																<option value="3">14g</option>
+																<option value="4">28g</option>
+															</select>
+														</div>
+														<div class="option-select">
+															<select id="flower-quantity-list">
+																<option value="0">Quantity</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+															</select>
+														</div>
+													</div>
+												</form>
+											
 											</div>
 										</div>
 									</section>
 
-							</div>
-							<div class="col-12">
-								<section id="concentrates">
-
-								<!-- Blog -->
-									<section class="box features">
-										<h2 class="major"><span>Concentrates</span></h2>
-										<div>
-											<div class="row">
-												<div class="content">
-													<!-- Featured Post -->
-														<article class="box post">
-															<header>
-																<h3 class="centered">COMING SOON!</h3>
-																<p class="centered">Watch out for great concentrates at even better prices</p>
-															</header>
-														</article>
-												</div>
-											</div>
-										</div>
-									</section>
-								</section>
 							</div>
 						</div>
 					</div>
@@ -113,5 +107,5 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/mycode.js"></script>
 	<script src="assets/js/custom-select.js"></script>
-	<script>printData("flower-menu")</script>
+	<script>printData("flower-order")</script>
 </html>

@@ -15,9 +15,11 @@
             "full": "140"
         },
         "images": {
-            "feature": "images/duke-nukem-sale.png" 
+            "feature": "images/duke-nukem-sale.png",
+            "logo": "images/duke-nukem-logo.png"
         },
-        "sale?": true
+        "sale?": true,
+        "in-stock?": true
     },
     {
         "strain": "Diesel AAA",
@@ -35,9 +37,11 @@
             "full": "140"
         },
         "images": {
-            "feature": "images/diesel-sale.png" 
+            "feature": "images/diesel-sale.png",
+            "logo": "images/diesel-logo.png"
         },
-        "sale?": true
+        "sale?": true,
+        "in-stock?": true
     },
     {
         "strain": "Bubba Tuna AAAA",
@@ -55,8 +59,11 @@
             "full": "180"
         },
         "images": {
-            "feature": "images/bubba-tuna-so.png" 
-        }
+            "feature": "images/bubba-tuna-so.png",
+            "logo": "/images/bubba-tuna-logo.png"
+        },
+        "sale?": false,
+        "in-stock?": false
     },
     {
         "strain": "Lemon Kush AA",
@@ -74,7 +81,10 @@
             "full": "100"
         },
         "images": {
-            "feature": "images/lemon-kush-so.png" 
-        }
+            "feature": "images/lemon-kush-so.png",
+            "logo": "images/lemon-kush-logo.png"
+        },
+        "sale?": false,
+        "in-stock?": false
     }
 ]
